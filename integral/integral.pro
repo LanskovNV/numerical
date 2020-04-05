@@ -4,12 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    square_forms/src/main.c \
-    square_forms/src/left_square.c \
-    square_forms/src/source.c \
-    square_forms/src/square_gauss.c
+    src/main.c \
+    src/left_square.c \
+    src/source.c \
+    src/square_gauss.c
 
 HEADERS += \
-    square_forms/src/left_square.h \
-    square_forms/src/source.h \
-    square_forms/src/square_gauss.h
+    src/left_square.h \
+    src/source.h \
+    src/square_gauss.h

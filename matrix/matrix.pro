@@ -3,20 +3,21 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
-    matrix.c \
-    solve_iter.c \
-    siovesqr.c
+SOURCES += \
+    src/main.c \
+    src/matrix.c \
+    src/solve_iter.c \
+    src/siovesqr.c
 
 HEADERS += \
-    matrix.h \
-    solve_iter.h \
-    solvesqr.h
+    src/matrix.h \
+    src/solve_iter.h \
+    src/solvesqr.h
 
 DISTFILES += \
-    matrix-bad.txt \
-    matrix-good.txt \
-    test.txt \
-    small.txt \
-    small2.txt \
-    small3.txt
+    cfg/matrix-bad.txt \
+    cfg/matrix-good.txt \
+    cfg/test.txt \
+    cfg/small.txt \
+    cfg/small2.txt \
+    cfg/small3.txt

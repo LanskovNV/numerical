@@ -4,17 +4,17 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    ../diff_git/main.cpp \
-    ../diff_git/function.cpp \
-    ../diff_git/euler_koshi.cpp \
-    ../diff_git/adams.cpp \
-    ../diff_git/shooting.cpp
+    src/main.cpp \
+    src/function.cpp \
+    src/euler_koshi.cpp \
+    src/adams.cpp \
+    src/shooting.cpp
 
 HEADERS += \
-    ../diff_git/function.h \
-    ../diff_git/euler_koshi.h \
-    ../diff_git/adams.h \
-    ../diff_git/shooting.h
+    src/function.h \
+    src/euler_koshi.h \
+    src/adams.h \
+    src/shooting.h
 
 DISTFILES += \
-    ../diff_git/y_solution.txt
+    out/y_solution.txt

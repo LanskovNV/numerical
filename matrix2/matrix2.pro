@@ -3,26 +3,27 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
-    matrix.c \
-    leverie.c \
-    jacobi.c \
-    qr.c \
-    solve_iter.c
+SOURCES += \
+    src/main.c \
+    src/matrix.c \
+    src/leverie.c \
+    src/jacobi.c \
+    src/qr.c \
+    src/solve_iter.c
 
 HEADERS += \
-    matrix.h \
-    leverie.h \
-    jacobi.h \
-    qr.h \
-    solve_iter.h
+    src/matrix.h \
+    src/leverie.h \
+    src/jacobi.h \
+    src/qr.h \
+    src/solve_iter.h
 
 DISTFILES += \
-    matr.txt \
-    matrix-bad.txt \
-    matrix-good.txt \
-    leverie.txt \
-    goodCNT.txt \
-    badCNT.txt \
-    goodASYM.txt \
-    badASYM.txt
+    cfg/matr.txt \
+    cfg/matrix-bad.txt \
+    cfg/matrix-good.txt \
+    cfg/leverie.txt \
+    cfg/goodCNT.txt \
+    cfg/badCNT.txt \
+    cfg/goodASYM.txt \
+    cfg/badASYM.txt
